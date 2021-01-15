@@ -1,0 +1,164 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1566041510394-cf7c8fe21800');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+}
+
+a:hover {
+    color: currentColor;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid rgb(153, 110, 130);
+}
+
+.navbar {
+    background-image: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(153, 110, 130);
+}
+
+.carousel-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.index-news {
+    background-color: rgb(153, 110, 130);
+}
+
+.index-news>ul {
+    color: #fff;
+}
+
+.btn-light,.btn-light-news {
+    background-color: rgb(153, 110, 130);
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-light-news:hover{
+    background-color: #fff;
+    color: rgb(153, 110, 130);
+    border-color: rgb(153, 110, 130);
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: rgb(153, 110, 130);
+    border-color: rgb(153, 110, 130);
+}
+
+
+
+.btn-outline-light {
+    color: rgb(153, 110, 130);
+    border-color: rgb(153, 110, 130);
+}
+
+
+.btn-outline-light:hover {
+    background-color: rgb(153, 110, 130);
+    color: #fff;
+}
+
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: rgb(153, 110, 130);
+}
+
+/* 分頁 */
+
+/* ABOUT US */
+.header-img {
+    background-image: url('https://images.unsplash.com/photo-1555980483-93e7b3529e1a');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.intro-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* NEWS */
+
+.news-card {
+    background-color: #fff;
+}
+
+.news-card:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 產品詳細資訊業面 */
+
+.productPageImg {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 70%;
+    background-size: cover;
+}
+
+.form-control {
+    border: 1px solid rgb(153, 110, 130);
+    background-color: transparent;
+    color: rgb(153, 110, 130);
+}
+
+.form-control:focus {
+    color: rgb(153, 110, 130);
+    background-color: transparent;
+    border: 1px solid rgb(153, 110, 130);
+    box-shadow: none;
+}
+
+select option{
+    color:  rgb(153, 110, 130);
+}
+
+
