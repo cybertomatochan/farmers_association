@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1566041510394-cf7c8fe21800');
+    font-family: Microsoft JhengHei,Arial, Helvetica, sans-serif;
+    background-image: url('img/body_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,11 +25,13 @@ hr {
 }
 
 .navbar {
-    background-image: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474');
+    background-image: url('img/nav_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
+    font-size: 18px;
+    font-weight: 1000;
 }
 
 .footer {
@@ -102,7 +105,7 @@ hr {
 
 /* ABOUT US */
 .header-img {
-    background-image: url('https://images.unsplash.com/photo-1555980483-93e7b3529e1a');
+    background-image: url('img/header.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 40vh;
